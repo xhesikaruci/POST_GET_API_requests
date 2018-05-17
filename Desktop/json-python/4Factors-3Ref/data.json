@@ -1,0 +1,112 @@
+{
+    "x2": {
+        "crisp_val": "", 
+        "antecedent_name": "Temperature", 
+        "parent": "x1", 
+        "ref_title": [
+            "High", 
+            "Medium", 
+            "Low"
+        ], 
+        "attribute_weight": "1", 
+        "antecedent_id": "x2", 
+        "is_input": "true", 
+        "consequent_values": [
+            "[]"
+        ], 
+        "input_val": "47.292\n", 
+        "ref_val": [
+            "55.032", 
+            "27.996", 
+            "-0.959"
+        ]
+    }, 
+    "x3": {
+        "crisp_val": "", 
+        "antecedent_name": "Humidity", 
+        "parent": "x1", 
+        "ref_title": [
+            "High", 
+            "Medium", 
+            "Low"
+        ], 
+        "attribute_weight": "1", 
+        "antecedent_id": "x3", 
+        "is_input": "true", 
+        "consequent_values": [
+            "[]"
+        ], 
+        "input_val": "66.111\n", 
+        "ref_val": [
+            "99.1", 
+            "65.076", 
+            "31.068"
+        ]
+    }, 
+    "x1": {
+        "crisp_val": "", 
+        "antecedent_name": "PUE", 
+        "parent": "x1", 
+        "ref_title": [
+            "Severe", 
+            "Average", 
+            "Low"
+        ], 
+        "attribute_weight": "1", 
+        "antecedent_id": "x1", 
+        "is_input": "false", 
+        "consequent_values": [
+            "[]"
+        ], 
+        "input_val": "0", 
+        "ref_val": [
+            "1.254", 
+            "1.127", 
+            "1"
+        ]
+    }, 
+    "x4": {
+        "crisp_val": "", 
+        "antecedent_name": "Wind Speed", 
+        "parent": "x1", 
+        "ref_title": [
+            "High", 
+            "Medium", 
+            "Low"
+        ], 
+        "attribute_weight": "1", 
+        "antecedent_id": "x4", 
+        "is_input": "true", 
+        "consequent_values": [
+            "[]"
+        ], 
+        "input_val": "10.8\r\n", 
+        "ref_val": [
+            "39.6", 
+            "19.8", 
+            "0"
+        ]
+    }, 
+    "x5": {
+        "crisp_val": "", 
+        "antecedent_name": "Wind Direction", 
+        "parent": "x1", 
+        "ref_title": [
+            "High", 
+            "Medium", 
+            "Low"
+        ], 
+        "attribute_weight": "1", 
+        "antecedent_id": "x5", 
+        "is_input": "true", 
+        "consequent_values": [
+            "[]"
+        ], 
+        "input_val": "180\r\n", 
+        "ref_val": [
+            "0", 
+            "170", 
+            "338"
+        ]
+    }
+}
